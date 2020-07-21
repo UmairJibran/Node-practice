@@ -5,5 +5,5 @@ let addNumbers = (numbersToAddUp) => {
   }
   return sum;
 };
-
-module.exports = addNumbers;
+console.log("Hello from module.js");
+module.exports = { sum: addNumbers };
