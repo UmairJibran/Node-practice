@@ -34,3 +34,5 @@ job.on("ushu", function (timeDone) {
 });
 
 job.emit("ushu", new Date());
+
+job.removeAllListeners();
