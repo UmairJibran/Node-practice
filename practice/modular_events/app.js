@@ -5,5 +5,3 @@ event.on("complete", function (details) {
   console.log("Completed at: ", details.completedOn);
 });
 event.emit("start");
-
-event.removeAllListeners();
