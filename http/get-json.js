@@ -21,7 +21,7 @@ https
   });
 
 function writeToFile(data) {
-  fs.writeFile("./http/users.json", data, (error) => {
+  fs.writeFile("./users.json", data, (error) => {
     if (error) return console.error(error);
     console.log("Data has been written to users.json");
   });
